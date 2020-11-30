@@ -22,7 +22,7 @@ const commentSchema = new Schema({
 },{
     timestamps:true
 });
-
+//schema for dishes
 const dishSchema = new Schema({
     name:{
         type: String,
@@ -58,7 +58,7 @@ const dishSchema = new Schema({
 },{
         timestamps:true
 });
-
+// model for dishes
 var Dishes = mongoose.model('Dish',dishSchema);
 
 module.exports = Dishes;
